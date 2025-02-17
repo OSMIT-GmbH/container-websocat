@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/alpine/tags
-FROM alpine:3.21.2
+FROM alpine:3.21.3
 LABEL org.opencontainers.image.description "Alpine based container with websocat"
 
 # we need websocat from edge repository as 3.21 only has version 1.13, but we need 1.14 due to basic auth...
